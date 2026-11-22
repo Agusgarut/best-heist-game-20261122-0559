@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MIDNIGHT HEIST — The Marlow Museum Job</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #0d0f14;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+  }
+  #game {
+    display: block;
+    width: 1280px;
+    height: 480px;
+    max-width: 100vw;
+    background: #101218;
+    box-shadow: 0 0 60px rgba(245, 197, 66, 0.12), 0 0 0 1px #2a2f3a;
+  }
+  .under {
+    color: #9aa3b2;
+    font-size: 13px;
+    margin-top: 12px;
+    text-align: center;
+  }
+  .under b { color: #e8e4d8; }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="480"></canvas>
+<div class="under">
+  <b>MIDNIGHT HEIST — The Marlow Museum Job.</b>
+  WASD / arrows to move &middot; SHIFT to sneak &middot; P pause &middot; M mute &middot; R retry.
+  Lift the vault loot, then reach the green EXIT before the alarm hits 100%.
+</div>
+<script src="src/config.js"></script>
+<script src="src/world.js"></script>
+<script src="src/guards.js"></script>
+<script src="src/input.js"></script>
+<script src="src/audio.js"></script>
+<script src="src/render.js"></script>
+<script src="src/shots.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>
