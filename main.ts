@@ -23,8 +23,13 @@ const dossierCaps = {
 };
 
 // Start from a clean output so a stale file can never leak into a run.
-if (existsSync(outputDir)) rmSync(outputDir, { recursive: true, force: true });
+// Clear the directory's CONTENTS, never the directory itself: the grader
+// mounts /output and the program runs as an unprivileged user that may not
+// remove the mount point (rmSync on /output itself dies with EPERM).
 mkdirSync(outputDir, { recursive: true });
+for (const entry of readdirSync(outputDir)) {
+  rmSync(join(outputDir, entry), { recursive: true, force: true });
+}
 
 // Copy game/ and screenshots/ in a fixed order, file by file.
 for (const name of ['game', 'screenshots']) {
