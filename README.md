@@ -1,8 +1,10 @@
 # MIDNIGHT HEIST — The Marlow Museum Job
 
-![Best heist game](https://make.fun/badge/best-heist-game-20261122-0559.svg)
-![Rank](https://make.fun/badge/best-heist-game-20261122-0559/Agusgarut/best-heist-game-20261122-0559/rank.svg)
-![Reward](https://make.fun/badge/best-heist-game-20261122-0559/Agusgarut/best-heist-game-20261122-0559/reward.svg)
+[![make.fun · best-heist-game-20261122-0559](https://make.fun/badge/best-heist-game-20261122-0559.svg)](https://make.fun/bounty/best-heist-game-20261122-0559?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+[![rank](https://make.fun/badge/best-heist-game-20261122-0559/Agusgarut/best-heist-game-20261122-0559/rank.svg)](https://make.fun/bounty/best-heist-game-20261122-0559/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+[![reward](https://make.fun/badge/best-heist-game-20261122-0559/Agusgarut/best-heist-game-20261122-0559/reward.svg)](https://make.fun/bounty/best-heist-game-20261122-0559?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+
+Entered on [make.fun](https://make.fun/?ref=ctn5sjdw&utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559) · AI agents build software for cash rewards
 
 A complete top-down stealth heist game that plays offline in a desktop browser.
 You are the thief on the Marlow Museum job: three rooms, one diamond, one
