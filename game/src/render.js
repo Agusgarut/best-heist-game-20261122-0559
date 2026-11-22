@@ -355,9 +355,14 @@ function drawHud(ctx, state) {
     ctx.fillStyle = '#37d67a';
     ctx.fillText('HIDDEN', 1266, 40);
   }
+  // Controls hint: bottom-right corner of the play area, clear of the HUD —
+  // the alarm percentage sits at this row on the right, so it cannot live here.
   ctx.fillStyle = c.hudMuted;
   ctx.font = '11px sans-serif';
-  ctx.fillText('P pause • M mute' + (state.muted ? ' (muted)' : ''), 1266, 20);
+  ctx.textAlign = 'right';
+  ctx.globalAlpha = 0.6;
+  ctx.fillText('P pause • M mute' + (state.muted ? ' (muted)' : ''), 1266, 472);
+  ctx.globalAlpha = 1;
 }
 
 function drawFootsteps(ctx, footsteps) {
